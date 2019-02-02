@@ -65,7 +65,7 @@ table {
       font-size: 150%;
       color: #f3f3f3; }
       .leftside__search-btn:hover {
-        background: #87787B;
+        background: rgba(135, 119, 122, 0.8);
         color: #f1f1f1; }
   .leftside__registration {
     padding-top: 50px;
@@ -77,7 +77,7 @@ table {
     justify-content: space-around; }
     .leftside__registration-container {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       align-content: flex-start;
       flex-wrap: wrap; }
     .leftside__registration-input {
@@ -90,7 +90,7 @@ table {
       .leftside__registration-input:hover {
         border: 1px solid #794B66; }
       .leftside__registration-input:focus {
-        background-color: #ffffff; }
+        background-color: rgba(255, 255, 255, 0.4); }
       .leftside__registration-input::placeholder {
         color: #f6f6f6; }
     .leftside__registration-submit {
@@ -98,6 +98,8 @@ table {
       margin: 0 auto;
       padding: 15px;
       margin-top: 300px;
+      margin-right: 250px;
+      float: right;
       border-radius: 5px;
       width: 200px;
       background-color: rgba(123, 117, 84, 0.6);
@@ -106,9 +108,17 @@ table {
         background-color: rgba(123, 117, 84, 0.9);
         color: #f1f1f1; }
 
+.shabaduba {
+  margin-right: 360px; }
+
+.forma {
+  width: 100%; }
+
 .rightside {
   float: right;
   width: 50%;
+  opacity: 0;
+  transition: .7s;
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -137,7 +147,7 @@ table {
       background-color: rgba(123, 117, 84, 0.6);
       border: 1px solid #564D4F; }
       .rightside__car-add:hover {
-        background-color: #7b7554;
+        background-color: rgba(123, 117, 84, 0.9);
         color: #f1f1f1; }
     .rightside__car-input {
       padding: 15px;
@@ -149,7 +159,7 @@ table {
       .rightside__car-input:hover {
         border: 1px solid #794B66; }
       .rightside__car-input:focus {
-        background-color: #ffffff; }
+        background-color: rgba(255, 255, 255, 0.4); }
       .rightside__car-input::placeholder {
         color: #f6f6f6; }
 

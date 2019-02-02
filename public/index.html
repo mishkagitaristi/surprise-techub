@@ -9,17 +9,19 @@
 </head>
 <body>
     <main class="leftside" id="test1">
-        <form class="leftside__registration">
+        <form action="http://localhost:3000/users" method="POST" class="leftside__registration">
             <div class="leftside__search-container">
                 <input class="leftside__search" type="text" placeholder="Search Car Owner" id="test2">
                 <button class="leftside__search-btn">Search</button>
             </div>
+        </form>
+        <form class="forma" action="http://localhost:3000/users" method="POST">
             <div class="leftside__registration-container">
                 <input type="text" class="leftside__registration-input" name="name" placeholder="Name">
                 <input type="text" class="leftside__registration-input" name="lastname" placeholder="Lastname">
-                <input type="text" class="leftside__registration-input" name="father's name" placeholder="Father's name">
-                <input type="text" class="leftside__registration-input" name="pn" placeholder="P.N">
-                <input type="date" class="leftside__registration-input" name="birthdate" style="color: #f6f6f6;">
+                <input type="text" class="leftside__registration-input" name="fathersName" placeholder="Father's name">
+                <input type="text" class="leftside__registration-input" name="PN" placeholder="P.N">
+                <input type="date" class="leftside__registration-input shabaduba" name="birthDate" style="color: #f6f6f6;">
             </div>
             <button type="submit" class="leftside__registration-submit">Add user</button>
         </form>
@@ -94,15 +96,7 @@
         </div>
     </main>
 
-    <script>
-        let btn = document.getElementById('test2');
-        let left = document.getElementById('test1');
-        let right = document.getElementById('test3');
-        btn.addEventListener("click", function(){
-            right.style.display = "block";
-            left.style.width = "50%";
-        })
     
-    </script>
+    <script src="assets/js/reg.js"></script>
 </body>
 </html>
