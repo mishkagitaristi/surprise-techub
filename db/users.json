@@ -1,18 +1,58 @@
 [
-    {
-        "name": "saxeil",
-        "lastname": "gvari",
-        "fathersName": "mamis saxeli",
-        "PN": "piradi nomer",
-        "birthDate": "1998-09-15",
-        "cars": [
-        {
-            "make": "mercedes-benz",
-            "model": "e-klasse",
-            "VIN": "aisudfasdkf",
-            "legalNumber": "AS-111-SA",
-            "color": "red"
-        }
+  {
+    "name": "mishka",
+    "lastname": "mamniashvili",
+    "fathersName": "nugzari ",
+    "PN": "01027067300",
+    "birthDate": "2222-12-22",
+    "cars": [
+      {
+        "make": "honda",
+        "model": "fit",
+        "vin": "a",
+        "legal": "FI-555-SO",
+        "color": "red"
+      },
+      {
+        "make": "a",
+        "model": "a",
+        "vin": "a",
+        "legal": "a",
+        "color": "a"
+      },
+      {
+        "make": "BMW",
+        "model": "xuliganka",
+        "vin": "as",
+        "legal": "asd",
+        "color": "red"
+      },
+      {
+        "make": "asdw",
+        "model": "asdw",
+        "legal": "asdw",
+        "color": "asdw"
+      },
+      {
+        "make": "rtegrtw",
+        "model": "qwefq",
+        "legal": "EFQWEFAWFQE",
+        "color": "GEWGQGE"
+      },
+      {
+        "make": "90",
+        "model": "90",
+        "vin": "90",
+        "legal": "90",
+        "color": "90"
+      },
+      {
+        "make": "45",
+        "model": "45",
+        "vin": "45",
+        "legal": "45",
+        "color": "45"
+      }
     ]
-    }
+  }
 ]

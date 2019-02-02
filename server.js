@@ -5,6 +5,7 @@ const { MainController } = require("./controllers/main.controllers");
 const { UserController, UserRegistration } = require("./controllers/user.controllers");
 
 
+
 app.use(express.static(__dirname + "/public"));
 app.use(express.urlencoded({extended: true}));
 app.use(express.json());
@@ -12,8 +13,9 @@ app.use(express.json());
 
 app.get("/", MainController);
 
-app.get("/users", UserController)
+app.get("/users", UserController )
 app.post("/users", UserRegistration )
+
 
 
 app.listen(port, () => {

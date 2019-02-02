@@ -8,95 +8,44 @@
     <title>Document</title>
 </head>
 <body>
-    <main class="leftside" id="test1">
-        <form action="http://localhost:3000/users" method="POST" class="leftside__registration">
+    <main class="leftside">
+        <div action="http://localhost:3000/users" method="POST" class="leftside__registration">
             <div class="leftside__search-container">
-                <input class="leftside__search" type="text" placeholder="Search Car Owner" id="test2">
-                <button class="leftside__search-btn">Search</button>
+                <input class="leftside__search" type="text" placeholder="Search Car Owner" id="searchInput">
+                <button class="leftside__search-btn" id="searchBtn">Search</button>
             </div>
-        </form>
+        </div>
         <form class="forma" action="http://localhost:3000/users" method="POST">
             <div class="leftside__registration-container">
-                <input type="text" class="leftside__registration-input" name="name" placeholder="Name">
-                <input type="text" class="leftside__registration-input" name="lastname" placeholder="Lastname">
-                <input type="text" class="leftside__registration-input" name="fathersName" placeholder="Father's name">
-                <input type="text" class="leftside__registration-input" name="PN" placeholder="P.N">
-                <input type="date" class="leftside__registration-input shabaduba" name="birthDate" style="color: #f6f6f6;">
+                <input type="text" class="leftside__registration-input" name="name" placeholder="Name" required>
+                <input type="text" class="leftside__registration-input" name="lastname" placeholder="Lastname" required>
+                <input type="text" class="leftside__registration-input" name="fathersName" placeholder="Father's name" required>
+                <input type="number" class="leftside__registration-input" name="PN" placeholder="P.N" required id="personalNumber">
+                <input type="date" class="leftside__registration-input shabaduba" name="birthDate" style="color: #f6f6f6;" required>
+                <input type="hidden" name="method" value="post">
             </div>
-            <button type="submit" class="leftside__registration-submit">Add user</button>
+            <button type="submit" class="leftside__registration-submit" id="registrationBtn">Add user</button>
         </form>
     </main>
 
 
     <main class="rightside" id="test3">
-        <h2 class="rightside__result">gocha</h2>
-        <div class="rightside__car">
-            <input type="text" class="rightside__car-input" name="make" placeholder="Make">
-            <input type="text" class="rightside__car-input" name="model" placeholder="Model">
-            <input type="text" class="rightside__car-input" name="vin" placeholder="VIN">
-            <input type="text" class="rightside__car-input" name="legal number" placeholder="Legal Number">
-            <input type="text" class="rightside__car-input" name="color" placeholder="color">
-            <button type="text" class="rightside__car-add" name="color" placeholder="color">Add car</button>
-        </div>
-        <div class="rightside__ownedcars">
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-            <div class="rightside__ownedcars-item">
-                <h3 class="rightside__ownedcars-item--header">make: mercedes-benz</h3>
-                <div  class="flexxx">
-                    <div class="rightside__ownedcars-item--specs">model: E-klasse</div>
-                    <div class="rightside__ownedcars-item--specs">vin: 12ASDI5235HIO34BAEFG98</div>
-                    <div class="rightside__ownedcars-item--specs">legal: NA-111-XU</div>
-                    <div class="rightside__ownedcars-item--specs">color: YELLOW</div>
-                </div>
-            </div>
-        </div>
+        <h2 id="ownerName" class="rightside__result"></h2>
+        <form method="POST" action="http://localhost:3000/users"" class="rightside__car" id="addCarForm">
+            <input type="text" class="rightside__car-input" name="make" placeholder="Make" required>
+            <input type="text" class="rightside__car-input" name="model" placeholder="Model" required>
+            <input type="text" class="rightside__car-input" name="vin" placeholder="VIN" required> 
+            <input type="text" class="rightside__car-input" name="legal" placeholder="Legal" required id="legalNumber">
+            <input type="text" class="rightside__car-input" name="color" placeholder="color" required>
+            <button type="submit" class="rightside__car-add" name="addCar" id="addCar">Add car</button>
+            <input type="hidden" name="method" value="put">
+
+        </form>
+        <div class="rightside__ownedcars" id="carList"></div>
     </main>
 
     
-    <script src="assets/js/reg.js"></script>
+    <script src="assets/js/search.js"></script>
+    <script src="assets/js/notification.js"></script>
 </body>
 </html>
