@@ -1,0 +1,89 @@
+.leftside{
+    float: left;
+    width: 50%;
+    height: 100vh; 
+    transition: .7s;
+    
+    
+    &__search{
+        display: block;
+        width: calc(100% - 80px);
+        background: #E7E5DF;
+        border: 1px solid #7B7554;
+        border-right: none;
+        border-radius: 15px 0 0 15px;
+        margin: 0 auto;
+        padding: 15px;
+        margin-bottom: 50px;
+        color: #3a2a2a;
+        &-container{
+            display: flex;
+            justify-content: space-between;
+        }
+        &-btn{
+            cursor: pointer;
+            background-color: rgba(135, 120, 123, 0.6);
+            display: block;
+            width: calc(50% - 80px);
+            border: 1px solid #7B7554;
+            border-radius: 0 15px 15px 0; 
+            margin: 0 auto;
+            padding: 15px;
+            margin-bottom: 50px;
+            font-size: 150%;
+            color: #f3f3f3;
+            &:hover{
+                background: rgba(135, 119, 122, 0.8);
+                color: #f1f1f1;
+            }
+        }
+    }
+    &__registration{
+        padding-top: 50px;
+        width: calc(100% - 60px);
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        &-container{
+            display: flex;
+            justify-content: space-between;
+            align-content: flex-start;
+            flex-wrap: wrap;
+        }
+        &-input{
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            width: 300px;
+            border: 1px solid transparent;
+            background-color: rgba(149, 160, 158, 0.55);
+            &:hover{
+                border: 1px solid #794B66;
+            }
+            &:focus{
+                background-color: #ffffff;
+            }
+            &::placeholder{
+                color: #f6f6f6;
+
+            }
+        }
+        &-submit{
+            cursor: pointer;
+            margin: 0 auto;
+            padding: 15px;
+            margin-top: 300px;
+            border-radius: 5px;
+            width: 200px;
+            background-color: rgba(123, 117, 84, 0.6);
+            border: 1px solid #564D4F;
+            
+            &:hover{
+                background-color: rgba(123, 117, 84, 0.9);
+                color: #f1f1f1
+            }
+        }
+    }
+}

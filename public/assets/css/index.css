@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: transparent;
+  outline: transparent;
+  box-sizing: border-box;
+  vertical-align: baseline; }
+
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html {
+  font-size: 10px; }
+
+body {
+  font-family: "regular";
+  line-height: 1.34;
+  background-image: url("https://wallpapercave.com/wp/BxMwSHF.jpg");
+  background-position: center;
+  background-repeat: no-repeat; }
+
+a {
+  text-decoration: none; }
+
+ol, ul {
+  list-style: none; }
+
+textarea {
+  resize: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+.leftside {
+  float: left;
+  width: 50%;
+  height: 100vh;
+  transition: .7s; }
+  .leftside__search {
+    display: block;
+    width: calc(100% - 80px);
+    background: #E7E5DF;
+    border: 1px solid #7B7554;
+    border-right: none;
+    border-radius: 15px 0 0 15px;
+    margin: 0 auto;
+    padding: 15px;
+    margin-bottom: 50px;
+    color: #3a2a2a; }
+    .leftside__search-container {
+      display: flex;
+      justify-content: space-between; }
+    .leftside__search-btn {
+      cursor: pointer;
+      background-color: rgba(135, 120, 123, 0.6);
+      display: block;
+      width: calc(50% - 80px);
+      border: 1px solid #7B7554;
+      border-radius: 0 15px 15px 0;
+      margin: 0 auto;
+      padding: 15px;
+      margin-bottom: 50px;
+      font-size: 150%;
+      color: #f3f3f3; }
+      .leftside__search-btn:hover {
+        background: #87787B;
+        color: #f1f1f1; }
+  .leftside__registration {
+    padding-top: 50px;
+    width: calc(100% - 60px);
+    height: auto;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; }
+    .leftside__registration-container {
+      display: flex;
+      justify-content: space-between;
+      align-content: flex-start;
+      flex-wrap: wrap; }
+    .leftside__registration-input {
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      width: 300px;
+      border: 1px solid transparent;
+      background-color: rgba(149, 160, 158, 0.55); }
+      .leftside__registration-input:hover {
+        border: 1px solid #794B66; }
+      .leftside__registration-input:focus {
+        background-color: #ffffff; }
+      .leftside__registration-input::placeholder {
+        color: #f6f6f6; }
+    .leftside__registration-submit {
+      cursor: pointer;
+      margin: 0 auto;
+      padding: 15px;
+      margin-top: 300px;
+      border-radius: 5px;
+      width: 200px;
+      background-color: rgba(123, 117, 84, 0.6);
+      border: 1px solid #564D4F; }
+      .leftside__registration-submit:hover {
+        background-color: rgba(123, 117, 84, 0.9);
+        color: #f1f1f1; }
+
+.rightside {
+  float: right;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  color: #f6f6f6; }
+  .rightside__result {
+    padding: 15px 15px 15px 50px;
+    margin-top: 49px;
+    margin-bottom: 48px;
+    border: 1px solid black;
+    width: calc(100% - 60px);
+    border: 1px solid #7B7554;
+    border-radius: 15px;
+    background: #E7E5DF;
+    color: #794B66; }
+  .rightside__car {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: calc(100% - 60px); }
+    .rightside__car-add {
+      cursor: pointer;
+      padding: 15px !important;
+      width: 300px;
+      height: 45px;
+      border-radius: 5px;
+      background-color: rgba(123, 117, 84, 0.6);
+      border: 1px solid #564D4F; }
+      .rightside__car-add:hover {
+        background-color: #7b7554;
+        color: #f1f1f1; }
+    .rightside__car-input {
+      padding: 15px;
+      margin-bottom: 20px;
+      border-radius: 5px;
+      width: 300px;
+      border: 1px solid transparent;
+      background-color: rgba(149, 160, 158, 0.55); }
+      .rightside__car-input:hover {
+        border: 1px solid #794B66; }
+      .rightside__car-input:focus {
+        background-color: #ffffff; }
+      .rightside__car-input::placeholder {
+        color: #f6f6f6; }
+
+.rightside__ownedcars {
+  width: calc(100% - 60px);
+  height: 400px;
+  padding: 5px;
+  border-radius: 15px;
+  overflow-y: scroll; }
+  .rightside__ownedcars-item {
+    width: calc(100% - 40px);
+    background: rgba(128, 128, 128, 0.6);
+    margin: 0 auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; }
+    .rightside__ownedcars-item--header {
+      text-align: center;
+      font-size: 17px; }
+    .rightside__ownedcars-item--specs {
+      padding: 5px;
+      margin: 0 5px 5px 5px;
+      width: 200px;
+      font-size: 13px;
+      color: #f2f2f2; }
+
+.flexxx {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around; }
