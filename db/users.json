@@ -19,6 +19,13 @@
         "vin": "asidgbaG32151",
         "legal": "BM-123-WE",
         "color": "white"
+      },
+      {
+        "make": "Opel",
+        "model": "Vectra",
+        "vin": "ASDFGO1235SADFNOI",
+        "legal": "VE-001-CT",
+        "color": "red"
       }
     ]
   }
