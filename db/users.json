@@ -33,6 +33,29 @@
         "vin": "ASI32GOUB123S",
         "legal": "AU-123-DI",
         "color": "white"
+      },
+      {
+        "make": "Audi",
+        "model": "S5",
+        "vin": "asfasdfhwerhaf",
+        "legal": "asf",
+        "color": "a"
+      }
+    ]
+  },
+  {
+    "name": "asdg",
+    "lastname": "sadfzsd",
+    "fathersName": "asdfds",
+    "PN": "01234567890",
+    "birthDate": "22362-05-24",
+    "cars": [
+      {
+        "make": "Audi",
+        "model": "S5",
+        "vin": "asfasdfhwerhaf",
+        "legal": "asf",
+        "color": "a"
       }
     ]
   }
