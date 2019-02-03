@@ -35,6 +35,8 @@ const UserRegistration = (req,res) => {
             pnStatus = true;
             saveUsers(Users);
             res.redirect('back');
+        }else{
+            res.redirect('back');
         }
     }else if(req.body.method === "put"){
         let legalStatus = true;
@@ -68,6 +70,8 @@ const UserRegistration = (req,res) => {
 
             legalStatus = true;
             saveUsers(Users);
+            res.redirect('back');
+        }else{
             res.redirect('back');
         }
     }
