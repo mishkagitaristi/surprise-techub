@@ -1,57 +1,24 @@
 [
   {
-    "name": "mishka",
+    "name": "mixeil",
     "lastname": "mamniashvili",
-    "fathersName": "nugzari ",
+    "fathersName": "nugo",
     "PN": "01027067300",
-    "birthDate": "2222-12-22",
+    "birthDate": "1994-04-22",
     "cars": [
       {
-        "make": "honda",
-        "model": "fit",
-        "vin": "a",
-        "legal": "FI-555-SO",
-        "color": "red"
-      },
-      {
-        "make": "a",
-        "model": "a",
-        "vin": "a",
-        "legal": "a",
-        "color": "a"
+        "make": "mercedes-benz",
+        "model": "E-klasse",
+        "vin": "asfasdfhwerhaf",
+        "legal": "mi-000-ha",
+        "color": "green"
       },
       {
         "make": "BMW",
-        "model": "xuliganka",
-        "vin": "as",
-        "legal": "asd",
-        "color": "red"
-      },
-      {
-        "make": "asdw",
-        "model": "asdw",
-        "legal": "asdw",
-        "color": "asdw"
-      },
-      {
-        "make": "rtegrtw",
-        "model": "qwefq",
-        "legal": "EFQWEFAWFQE",
-        "color": "GEWGQGE"
-      },
-      {
-        "make": "90",
-        "model": "90",
-        "vin": "90",
-        "legal": "90",
-        "color": "90"
-      },
-      {
-        "make": "45",
-        "model": "45",
-        "vin": "45",
-        "legal": "45",
-        "color": "45"
+        "model": "m5",
+        "vin": "asidgbaG32151",
+        "legal": "BM-123-WE",
+        "color": "white"
       }
     ]
   }

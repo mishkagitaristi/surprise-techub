@@ -48,8 +48,9 @@
         justify-content: space-around;
         &-container{
             display: flex;
-            justify-content: space-around;
+            justify-content: space-between;
             align-content: flex-start;
+            align-items: flex-start;
             flex-wrap: wrap;
         }
         &-input{
@@ -75,7 +76,7 @@
             margin: 0 auto;
             padding: 15px;
             margin-top: 300px;
-            margin-right: 250px;
+            
             float: right;
             border-radius: 5px;
             width: 200px;
@@ -90,9 +91,8 @@
     }
 }
 
-.shabaduba{
-    margin-right: 360px;
-}
+
 .forma{
-    width: 100%;   
+    margin: 0 auto;
+    width: calc(100% - 60px);   
 }
