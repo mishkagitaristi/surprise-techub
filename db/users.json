@@ -26,6 +26,13 @@
         "vin": "ASDFGO1235SADFNOI",
         "legal": "VE-001-CT",
         "color": "red"
+      },
+      {
+        "make": "Audi",
+        "model": "R5",
+        "vin": "ASI32GOUB123S",
+        "legal": "AU-123-DI",
+        "color": "white"
       }
     ]
   }

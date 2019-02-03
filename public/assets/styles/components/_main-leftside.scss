@@ -8,14 +8,14 @@
     &__search{
         display: block;
         width: calc(100% - 80px);
-        background: #E7E5DF;
+        background: rgba(230, 228, 223, 0.6);
         border: 1px solid #7B7554;
         border-right: none;
-        border-radius: 15px 0 0 15px;
+        border-radius: 10px 0 0 10px;
         margin: 0 auto;
         padding: 15px;
         margin-bottom: 50px;
-        color: #3a2a2a;
+        color: #f1f1f1;
         &-container{
             display: flex;
             justify-content: space-between;
@@ -26,7 +26,7 @@
             display: block;
             width: calc(50% - 80px);
             border: 1px solid #7B7554;
-            border-radius: 0 15px 15px 0; 
+            border-radius: 0 10px 10px 0; 
             margin: 0 auto;
             padding: 15px;
             margin-bottom: 50px;
@@ -75,14 +75,12 @@
         }
         &-submit{
             cursor: pointer;
-            margin: 0 auto;
             padding: 15px;
-            margin-top: 450px;
             float: right;
             border-radius: 5px;
-            width: 200px;
-            background-color: rgba(123, 117, 84, 0.6);
-            border: 1px solid #564D4F;
+            width: 300px;
+            background-color: rgba(123, 117, 84, 0.8);
+            border: 1px solid rgb(124, 120, 121);
             
             &:hover{
                 background-color: rgba(123, 117, 84, 0.9);
